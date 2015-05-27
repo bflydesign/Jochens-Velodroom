@@ -1,0 +1,13 @@
+{
+    "require": {
+        "intervention/image": "^2.2",
+        "sunhater/kcfinder": "dev-master",
+        "ckeditor/ckeditor": "dev-standard/stable",
+        "twitter/bootstrap": "3.3.*@dev",
+        "recaptcha-lib/recaptcha": "dev-master",
+        "phpmailer/phpmailer": "dev-master"
+    },
+    "autoload": {
+      "classmap": ["controllers/", "lib/", "models/"]
+    }
+}
