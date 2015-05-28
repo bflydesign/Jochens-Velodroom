@@ -1,20 +1,3 @@
-<!-- LEFT -->
-<div class="col-lg-3 col-lg-offset-1 logo text-center">
-    <img src="/img/sitelogo.png" alt="Jochens Velodroom"/>
-
-    <h2>openingsuren</h2>
-
-    <p></i> dinsdag t.e.m. vrijdag van 8-12u / 14-18u30</p>
-
-    <p>zaterdag van 9-12u / 14-18u30</p>
-
-    <p><i class="fa fa-lock"></i> Gesloten op zondag en maandag.</p>
-
-    <br/>
-
-    <p><i class="fa fa-credit-card"></i> Wij aanvaarden ecocheques voor alle aankopen en herstellingen</p>
-</div>
-
 <!-- MID -->
 <div class="col-lg-4 content">
     <h1 id="pagename"><?php print isset($title) ? $title : ''; ?></h1>
@@ -23,7 +6,7 @@
 
     <div class="row socialmedia">
         <div class="col-lg-6">
-            <img src="/img/btn_findus.png" alt="Facebook Jochens Velodroom"/>
+            <div class="fb-like" data-href="https://www.facebook.com/jochensvelodroom" data-layout="button" data-action="like" data-show-faces="false" data-share="false"></div>
         </div>
         <div class="col-lg-6">
             <ul class="soc">
@@ -56,24 +39,15 @@
     </div>
 
     <div class="row text-center">
-        <div class="col-lg-12">
+        <div class="col-lg-7">
             <p>
-                Pannestraat 189, 8630 VEURNE<br/>
+                Pannestraat 189, 8630 Veurne<br/>
                 info@jochensvelodroom.be<br/>
                 T 058 299 599 dinsdag
             </p>
         </div>
-    </div>
-    <div class="row text-center">
-        <div class="col-lg-12">
-            <div class="fb-page" data-href="https://www.facebook.com/jochensvelodroom" data-hide-cover="false"
-                 data-show-facepile="true" data-show-posts="false">
-                <div class="fb-xfbml-parse-ignore">
-                    <blockquote cite="https://www.facebook.com/jochensvelodroom"><a
-                            href="https://www.facebook.com/jochensvelodroom">Jochensvelodroom Veurne</a>
-                    </blockquote>
-                </div>
-            </div>
+        <div class="col-lg-5">
+            <img src="/img/btn_findus.png" alt="Facebook Jochens Velodroom"/>
         </div>
     </div>
 </div>

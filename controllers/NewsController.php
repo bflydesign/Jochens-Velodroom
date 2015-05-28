@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: bflydesign
- * Date: 25/05/15
- * Time: 07:55
- */
+
+class NewsController
+{
+    public function show($id)
+    {
+
+    }
+
+    public function getLast($num)
+    {
+        $lastItems = News::getNews(true, false, 'DESC', 3);
+    }
+}

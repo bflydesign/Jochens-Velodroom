@@ -40,6 +40,18 @@
 <?php include_once 'partials/header.php'; ?>
 
 <div id="main" class="container-fluid">
+    <!-- LEFT -->
+    <div class="col-lg-3 col-lg-offset-1 left text-left">
+        <img src="/img/sitelogo.png" alt="Jochens Velodroom" id="sitelogo"/>
+
+        <p><span class="green">Openingsuren</span> - gesloten op zondag en maandag <i class="fa fa-lock"></i><p>
+
+        </p></i> dinsdag t.e.m. vrijdag van 8-12u & 14-18u30<br/>
+        zaterdag van 9-12u & 14-18u30</p>
+
+        <p><i class="fa fa-credit-card"></i> Wij aanvaarden ecocheques voor alle aankopen en herstellingen</p>
+    </div>
+    <!-- MID & RIGHT -->
     <row>
         <?php include_once isset($view) ? $view : ''; ?>
     </row>

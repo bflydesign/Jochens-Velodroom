@@ -2,7 +2,8 @@ body {
     font-size: 12px;
     font-family: Arial, Verdana, sans-serif;
     color: #ffffff;
-    background-color: #182127;
+    /*background-color: #182127;*/
+    background: url('/img/bg_footer.jpg') repeat;
 }
 h1 {
     font-size: 1.5em;
@@ -19,6 +20,9 @@ h3 {
 }
 h4 {
 
+}
+.green {
+    color: #8ec449;
 }
 /******************************************************
 PREHEADER
@@ -73,7 +77,7 @@ HEADER
     right: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(142, 196, 73, 0.8);
+    background-color: rgba(142, 196, 73, 0.9);
     display: block;
     clear: both;
     z-index: -1;
@@ -139,6 +143,9 @@ MAIN
 #main img {
     max-width: 100%;
 }
+#main .left img#sitelogo {
+    margin-bottom: 30px;
+}
 #main .content, #main .sidebar {
     margin: 50px 0;
 }
@@ -159,8 +166,23 @@ FOOTER
     padding: 30px;
 }
 #footer .news article > div.wrapper {
-    border: 5px solid #8ec449;
+    background-color: #8ec449;
+    padding: 5px;
     font-size: 0.8em;
+    transition: linear 0.5s;
+    -o-transition: linear 0.5s;
+    -moz-transition: linear 0.5s;
+    -webkit-transition: linear 0.5s;
+}
+#footer .news article > div.wrapper:hover {
+    box-shadow: 0px 0px 20px #fff;
+    -o-box-shadow: 0px 0px 20px #fff;
+    -moz-box-shadow: 0px 0px 20px #fff;
+    -webkit-box-shadow: 0px 0px 20px #fff;
+    transition: box-shadow linear 0.3s;
+    -o-transition: box-shadow linear 0.3s;
+    -moz-transition: box-shadow linear 0.3s;
+    -webkit-transition: box-shadow linear 0.3s;
 }
 #footer .news article > div.wrapper > span.news_title {
     display: block;
@@ -226,6 +248,7 @@ FOOTER
     border-radius: 3px 0 0 3px;
     -moz-border-radius: 3px 0 0 3px;
     -webkit-border-radius: 3px 0 0 3px;
+    color: #000000;
 }
 #footer #frmSubscribe button {
     width: 40%;
@@ -253,7 +276,7 @@ CD-TOP
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+    background: rgba(142, 196, 73, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -275,7 +298,7 @@ CD-TOP
     opacity: .5;
 }
 .no-touch .cd-top:hover {
-    background-color: #e86256;
+    background-color: #8ec449;
     opacity: 1;
 }
 @media only screen and (min-width: 768px) {
