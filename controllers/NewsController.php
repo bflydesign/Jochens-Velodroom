@@ -2,13 +2,18 @@
 
 class NewsController
 {
-    public function show($id)
+    public function index()
     {
+        $title = 'nieuws';
+        $view = 'views/news.php';
 
+        $news = News::getNews(true);
+
+        include_once 'views/master.php';
     }
 
-    public function getLast($num)
+    public function item($id)
     {
-        $lastItems = News::getNews(true, false, 'DESC', 3);
+
     }
 }

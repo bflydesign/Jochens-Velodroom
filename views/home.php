@@ -75,7 +75,7 @@
             </p>
         </div>
         <div class="col-lg-5">
-            <img src="/img/btn_findus.png" alt="Facebook Jochens Velodroom"/>
+            <a href="https://www.facebook.com/jochensvelodroom" target="_blank" class="findus">&nbsp;</a>
         </div>
     </div>
 </div>

@@ -277,8 +277,7 @@ class News {
         if ($db->count > 0) {
             $items = array();
             foreach ($result as $row) {
-                $news = new News();
-                $news->setData($row);
+                $news = new News($row['ID']);
                 $items[] = $news;
             }
             return $items;
